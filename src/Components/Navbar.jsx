@@ -22,11 +22,11 @@ function Navbar() {
           <img src={Logo} alt="Logo" className='h-20 w-20 md:ml-10 -my-2'/>
         </div>
         <ul className={`flex items-center justify-center flex-col md:flex-row gap-5 absolute bg-[#78350f] ${menu?"top-16":"-top-96"} py-5 left-0 w-screen md:top-0 md:py-0 md:h-auto md:w-auto md:relative font-medium text-sm lg:text-base transition-all duration-500`}>
-          <li><Link to="#home">Home</Link></li>
-          <li><Link to="#about">About</Link></li>
-          <li><Link to="#products">Products</Link></li>
-          <li><Link to="#why">Why Us</Link></li>
-          <li><Link to="#gallery">Gallery</Link></li>
+          <li><Link onClick={handelMenu} to="#home">Home</Link></li>
+          <li><Link onClick={handelMenu} to="#about">About</Link></li>
+          <li><Link onClick={handelMenu} to="#products">Products</Link></li>
+          <li><Link onClick={handelMenu} to="#why">Why Us</Link></li>
+          <li><Link onClick={handelMenu} to="#gallery">Gallery</Link></li>
         </ul>
         <Link to="#contact" className='right-5 absolute md:relative bg-[#f59e0b] hover:bg-[#ffbb46] duration-300 p-1.5 px-3 rounded-md shadow-md shadow-[#00000034] flex items-center justify-center gap-2'>
           <FontAwesomeIcon icon={faEnvelope} />
