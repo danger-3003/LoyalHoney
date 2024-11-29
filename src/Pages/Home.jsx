@@ -30,14 +30,14 @@ function Home() {
                     carefully harvested organic honey.
                 </p>
                 <div className="flex items-start justify-center gap-5 flex-row text-sm sm:text-base">
-                    <Link className="bg-[#F59E0B] border-2 border-[#F59E0B] group rounded-md shadow-md shadow-[#00000034] px-2 sm:px-4 py-1 text-white hover:bg-transparent hover:text-[#F59E0B] transition-all duration-300">
+                    <Link to="#products" className="bg-[#F59E0B] border-2 border-[#F59E0B] group rounded-md shadow-md shadow-[#00000034] px-2 sm:px-4 py-1 text-white hover:bg-transparent hover:text-[#F59E0B] transition-all duration-300">
                         <FontAwesomeIcon
                             icon={faEnvira}
                             className="text-white group-hover:text-[#F59E0B] transition-all duration-300 mr-1.5"
                         />
                         Explore
                     </Link>
-                    <Link className="border-2 border-[#F59E0B] group rounded-md shadow-md shadow-[#00000034] px-2 sm:px-4 py-1 text-[#F59E0B] hover:bg-[#F59E0B] hover:text-white transition-all duration-300">
+                    <Link to="#about" className="border-2 border-[#F59E0B] group rounded-md shadow-md shadow-[#00000034] px-2 sm:px-4 py-1 text-[#F59E0B] hover:bg-[#F59E0B] hover:text-white transition-all duration-300">
                         <FontAwesomeIcon
                             icon={faCircleInfo}
                             className="text-[#F59E0B] group-hover:text-white transition-all duration-300 mr-1.5"
