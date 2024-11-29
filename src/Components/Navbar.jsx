@@ -16,7 +16,7 @@ function Navbar() {
     <div className='bg-[#78350f] text-white fixed z-[10] top-0 w-full lg:px-5 shadow-md shadow-zinc-400' style={{fontFamily:"poppins"}}>
       <div className='flex items-center justify-center md:justify-between flex-row'>
         <div onClick={handelMenu} className='w-5 left-5 absolute block md:hidden'>
-          <FontAwesomeIcon icon={!menu?faTimes:faBars} className='transition-all duration-500'/>
+          <FontAwesomeIcon icon={menu?faTimes:faBars} className='transition-all duration-500'/>
         </div>
         <div className=''>
           <img src={Logo} alt="Logo" className='h-20 w-20 md:ml-10 -my-2'/>
