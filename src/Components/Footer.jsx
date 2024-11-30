@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import Logo from "../assets/FooterLogo.svg";
-import Bg from "../assets/Footer.svg";
+import Bg from "../assets/footer.svg";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
